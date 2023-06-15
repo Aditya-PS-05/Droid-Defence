@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(95, 56, 97);
+    min-height: 100vh;
+}
+#playPause {
+    background-image: url('../assets/play.png') ;
+    background-size: cover;
+    width: 50px ;
+    height: 50px ;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    background-color: transparent ;
+    cursor: pointer ;
+    filter: invert(50%);
+}
+
+#info {
+    background-image: url('../assets/info.png') ;
+    background-size: cover;
+    width: 50px ;
+    height: 50px ;
+    position: absolute;
+    right: 80px;
+    bottom: 20px;
+    border: none;
+    background-color: transparent ;
+    cursor: pointer ;
+    filter: invert(50%);
+    display: block;
+}
+
+#menu {
+    text-align: center;
+    position: absolute;
+    margin: auto auto;
+    width: 60vmax;
+    background-color: rgb(217, 212, 212);
+    border: none;
+    border-radius: 5px ;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    display: flex;
+    padding-left: 3vmax;
+    padding-top: 3vmin;
+    gap: 10px;
+    flex-flow: column wrap;
+}
+
+#menu h2{
+    margin: 10px;
+    color: black;
+}
+#menu p{
+    text-align: left;
+    margin-left: 50px;
+    color: black;
+}
+
+#menu div{
+    text-align: left;
+    margin-left: 50px;
+    color: black;
+}
